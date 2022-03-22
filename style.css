@@ -1,0 +1,49 @@
+/* Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+/* Mobile first */
+.wrapper {
+  min-height: 100vh;
+  min-width: calc(100vw - (100vw - 100%));
+  background-color: #fec631;
+  padding: 20px;
+  font-size: 50px;
+}
+
+input{
+  color: #333;
+  font-size: 20px;
+  text-decoration: none;
+  background: #fff;
+  padding: 10px 50px;
+  border-radius: 25px;
+  margin: 80px auto 0;
+}
+.converteris{
+
+  text-align: center;
+  background-color: #d89f04;
+}
+
+.pagrindas{
+  justify-content: center;
+  align-items: center;
+}
+/* Tablet */
+/*@media screen and (min-width: 768px) {
+  .headline {
+    font-size: 3.5em;
+  }
+
+  #search,
+  #submit-btn {
+    font-size: 2em;
+  }
+}
+*/
